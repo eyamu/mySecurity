@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/abc_cab_background_bottom_holo_dark"
+    android:orientation="vertical" >
+     <TextView
+         android:layout_width="fill_parent"
+         android:text="WELCOME TO MY SECURITY APP"
+         android:textColor="@color/green"
+          android:background="@color/action_bar"
+         android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/splash1Img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:contentDescription="@string/icon_mic"
+            android:src="@drawable/lisa" />
+
+    </LinearLayout>
+   
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:gravity="center"
+        android:text="By BIT 15_21"
+        android:textColor="@color/green"
+        android:textSize="12.0sp" />
+
+</LinearLayout>

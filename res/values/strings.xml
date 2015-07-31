@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="app_name">MySecurity</string>
+    <string name="title_activity_login">MySecurity</string>
+    <string name="action_settings">MYSECURITY</string>
+    <string name="launch">LAUNCH</string>
+    <string name="add_contact">ADD CONTACT</string>
+    <string name="register">REGISTER</string>
+    <string name="settings">CUSTOMIZE</string>
+    <string name="icon_settings">SETTINGS</string>
+    <string name="icon_home">HOME</string>
+    <string name="icon_msg">MESSAGE</string>
+    <string name="icon_mic">RECORD</string>
+    <string name="landing_welcome_word">Welcome:</string>
+    <string name="landing_signout"><u>SIGN OUT</u></string>
+    <string name="landing_registration">REGISTRATION</string>
+    <string name="landing_contacts">CONTACTS</string>
+    <string name="company_branding_1">©</string>
+    <string name="company_branding_2">BIT 15_21</string>
+    <string name="company_branding_3">2015</string>
+    <string name="company_trademark_symbol">®</string>
+    <string name="company_techinologies">Bit 15_21</string>
+    <string name="contact_label_">Full Names:</string>
+    <string name="contact_phone">Phone Number:</string>
+    <string name="title_activity_register">New Account</string>
+    <string name="title_activity_splash_screan">SplashScreen</string>
+    <string name="title_activity_home_screaan">Home</string>
+    <string name="splashTitle">Welcome to MySecurity!</string>
+    <string name="mysecurityString">BIT 15_21</string>
+    <string name="title_activity_record">RecordActivity</string>
+
+
+    <string name="prompt_firstname">Firstname</string>
+    <string name="prompt_lastname">Lastname</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_registration">UserRegistrationActivity</string>
+    <string name="title_activity_all_contacts">AllContacts</string>
+    <string name="title_activity_display_contacts_activity">DisplayContactsACtivity</string>
+    <string name="title_activity_capture_audio">CaptureAudioActivity</string>
+
+</resources>

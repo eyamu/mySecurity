@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="pink">#ffd9b2ff</color>
+    <color name="better_pink">#ffeecdd5</color>
+    <color name="walah">#ffff6666</color>
+    <color name="my_brown">#ffccccff</color>
+    <color name="my_army_green">#ff666633</color>
+    <color name="my_white">#ffffffff</color>
+    <color name="my_wired_back">#ffe3e3e3</color>
+    <color name="my_red">#ffa50e0e</color>
+    <color name="my_black">#ff080808</color>
+    <color name="red_color">#ffff0000</color>
+    <color name="green">#00FF00</color>
+    <color name="view_background">#e8ecfa</color>
+    <color name="blue">#277bec</color>
+    <color name="white">#ffffff</color>
+    <color name="txt_font">#4e5572</color>
+    <color name="action_bar">#1f2649</color>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/blue"
+                android:paddingTop="20dp"
+                android:text="Sign Up To get Started"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/et_firstname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColorHint="@color/my_wired_back"
+                android:hint="FirstName"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/et_lastname"
+                android:layout_width="fill_parent"
+                android:hint="Surname"
+                android:textColorHint="@color/my_wired_back"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="fill_parent"
+                android:hint="Phone Number"
+                android:textColorHint="@color/my_wired_back"
+                android:layout_height="wrap_content"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/txt_gender"
+                android:textColorHint="@color/my_wired_back"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:text="Gender" />
+           <RadioGroup
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/rg_gender">
+
+               <RadioButton
+                   android:id="@+id/rb_male"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Male"
+                   />
+               <RadioButton
+                   android:id="@+id/rb_female"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Female"
+                   />
+               </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_register_user"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17.0dip"
+                android:background="@color/walah"
+                android:text="@string/register" />
+
+            <TextView
+                android:id="@+id/helplink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22.0dip"
+                android:text="Help"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/my_wired_back" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/mysecurityString"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/my_army_green" />
+    </LinearLayout>
+
+</LinearLayout>
